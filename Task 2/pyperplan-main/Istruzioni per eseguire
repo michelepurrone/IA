@@ -1,0 +1,9 @@
+Aprire il terminale e scrivere:
+sudo pip install --editable .
+
+Per mostrare un elenco delle principali funzionalità:
+pyperplan --help
+
+Per eseguire: euristica -H e algoritmo di ricerca -s sui file domain.pddl e problem.pddl
+pyperplan -H hrgc -s mba domain.pddl problem1.pddl
+

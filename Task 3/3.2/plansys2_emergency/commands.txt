@@ -1,0 +1,47 @@
+set instance robot agent
+set instance loc1 location
+set instance loc2 location
+set instance loc3 location
+set instance box1 box
+set instance box2 box
+set instance box3 box
+set instance box4 box
+set instance box5 box
+set instance food content
+set instance drug content
+set instance tool content
+set instance transporter carrier
+set instance p1 person
+set instance p2 person
+set instance p3 person
+set predicate (at robot loc1)
+set predicate (at box1 loc1)
+set predicate (at box2 loc1)
+set predicate (at box3 loc1)
+set predicate (at box4 loc1)
+set predicate (at box5 loc1)
+set predicate (empty box1)
+set predicate (empty box2)
+set predicate (empty box3)
+set predicate (empty box4)
+set predicate (empty box5)
+set predicate (at food loc1)
+set predicate (at drug loc1)
+set predicate (at tool loc1)
+set predicate (at transporter loc1)
+set predicate (at p1 loc2)
+set predicate (at p2 loc2)
+set predicate (at p3 loc3)
+set predicate (needs p1 food)
+set predicate (needs p1 drug)
+set predicate (needs p2 drug)
+set predicate (needs p3 food)
+set predicate (handsfree robot)
+set function (= (content_weight food) 2)
+set function (= (content_weight tool) 3)
+set function (= (content_weight drug) 1)
+set function (= (capacity transporter) 0)
+set function (= (max_capacity) 4)
+set function (= (total_weight) 0)
+set goal (and (has p1 food) (has p1 drug) (has p2 drug) (has p3 food))
+run plan-file plan.txt

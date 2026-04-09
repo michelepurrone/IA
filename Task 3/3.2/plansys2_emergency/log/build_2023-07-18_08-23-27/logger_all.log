@@ -1,0 +1,104 @@
+[0.348s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.348s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f026c708550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f026d0e8bb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f026d0e8bb0>>)
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.401s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aiguy/Desktop/plansys2_emergency'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'plansys2_emergency'
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.445s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aiguy/Desktop/plansys2_emergency/install
+[0.447s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 396 installed packages in /opt/ros/humble
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'plansys2_emergency' build argument 'cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'plansys2_emergency' build argument 'cmake_target' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'plansys2_emergency' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'plansys2_emergency' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'plansys2_emergency' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'plansys2_emergency' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'plansys2_emergency' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'plansys2_emergency' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'plansys2_emergency' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'plansys2_emergency' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency', 'merge_install': False, 'path': '/home/aiguy/Desktop/plansys2_emergency', 'symlink_install': True, 'test_result_base': None}
+[0.537s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.542s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aiguy/Desktop/plansys2_emergency' with build type 'ament_cmake'
+[0.542s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aiguy/Desktop/plansys2_emergency'
+[0.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency -- -j8 -l8
+[11.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency -- -j8 -l8
+[12.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency
+[12.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(plansys2_emergency)
+[12.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency
+[12.874s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency' for CMake module files
+[12.874s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency' for CMake config files
+[12.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('plansys2_emergency', 'cmake_prefix_path')
+[12.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/hook/cmake_prefix_path.ps1'
+[12.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/hook/cmake_prefix_path.dsv'
+[12.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/hook/cmake_prefix_path.sh'
+[12.882s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib'
+[12.883s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/bin'
+[12.883s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/pkgconfig/plansys2_emergency.pc'
+[12.883s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/python3.10/site-packages'
+[12.883s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/bin'
+[12.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.ps1'
+[12.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.dsv'
+[12.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.sh'
+[12.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.bash'
+[12.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.zsh'
+[12.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/colcon-core/packages/plansys2_emergency)
+[13.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(plansys2_emergency)
+[13.592s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency' for CMake module files
+[13.595s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency' for CMake config files
+[13.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('plansys2_emergency', 'cmake_prefix_path')
+[13.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/hook/cmake_prefix_path.ps1'
+[13.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/hook/cmake_prefix_path.dsv'
+[13.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/hook/cmake_prefix_path.sh'
+[13.609s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib'
+[13.610s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/bin'
+[13.610s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/pkgconfig/plansys2_emergency.pc'
+[13.610s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/python3.10/site-packages'
+[13.610s] Level 1:colcon.colcon_core.environment:checking '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/bin'
+[13.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.ps1'
+[13.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.dsv'
+[13.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.sh'
+[13.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.bash'
+[13.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.zsh'
+[13.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/colcon-core/packages/plansys2_emergency)
+[13.670s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.671s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.671s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.680s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.730s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.974s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiguy/Desktop/plansys2_emergency/install/local_setup.ps1'
+[14.002s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aiguy/Desktop/plansys2_emergency/install/_local_setup_util_ps1.py'
+[14.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiguy/Desktop/plansys2_emergency/install/setup.ps1'
+[14.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiguy/Desktop/plansys2_emergency/install/local_setup.sh'
+[14.105s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aiguy/Desktop/plansys2_emergency/install/_local_setup_util_sh.py'
+[14.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiguy/Desktop/plansys2_emergency/install/setup.sh'
+[14.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiguy/Desktop/plansys2_emergency/install/local_setup.bash'
+[14.110s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiguy/Desktop/plansys2_emergency/install/setup.bash'
+[14.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiguy/Desktop/plansys2_emergency/install/local_setup.zsh'
+[14.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiguy/Desktop/plansys2_emergency/install/setup.zsh'

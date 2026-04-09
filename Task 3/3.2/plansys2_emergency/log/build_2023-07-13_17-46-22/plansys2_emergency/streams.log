@@ -1,0 +1,34 @@
+[0.064s] Invoking command in '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency -- -j8 -l8
+[0.315s] [ 20%] Built target fill_box_action_node
+[0.316s] [ 40%] Built target deliver_action_node
+[0.317s] [ 60%] Built target load_action_node
+[0.317s] [ 80%] Built target move_action_node
+[0.317s] [100%] Built target unload_action_node
+[0.400s] Invoked command in '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency -- -j8 -l8
+[0.614s] Invoking command in '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency
+[0.625s] -- Install configuration: ""
+[0.626s] -- Execute custom install script
+[0.626s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/launch/plansys2_emergency_launch.py
+[0.627s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/pddl/domain.pddl
+[0.627s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/fill_box_action_node
+[0.628s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/load_action_node
+[0.628s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/unload_action_node
+[0.629s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/move_action_node
+[0.629s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/deliver_action_node
+[0.630s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/ament_index/resource_index/package_run_dependencies/plansys2_emergency
+[0.630s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/ament_index/resource_index/parent_prefix_path/plansys2_emergency
+[0.630s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/environment/ament_prefix_path.sh
+[0.631s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/environment/ament_prefix_path.dsv
+[0.631s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/environment/path.sh
+[0.632s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/environment/path.dsv
+[0.632s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/local_setup.bash
+[0.632s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/local_setup.sh
+[0.632s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/local_setup.zsh
+[0.633s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/local_setup.dsv
+[0.633s] -- Symlinking: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.dsv
+[0.659s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/ament_index/resource_index/packages/plansys2_emergency
+[0.661s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.663s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/cmake/plansys2_emergencyConfig.cmake
+[0.668s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/cmake/plansys2_emergencyConfig-version.cmake
+[0.668s] -- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.xml
+[0.669s] Invoked command in '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency

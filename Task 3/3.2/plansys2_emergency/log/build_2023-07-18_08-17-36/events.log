@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (plansys2_emergency) JobQueued: {'identifier': 'plansys2_emergency', 'dependencies': OrderedDict()}
+[0.000288] (plansys2_emergency) JobStarted: {'identifier': 'plansys2_emergency'}
+[0.033319] (plansys2_emergency) JobProgress: {'identifier': 'plansys2_emergency', 'progress': 'cmake'}
+[0.041285] (plansys2_emergency) JobProgress: {'identifier': 'plansys2_emergency', 'progress': 'build'}
+[0.041505] (plansys2_emergency) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency', '--', '-j8', '-l8'], 'cwd': '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aiguy'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aiguy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/aiguy/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19ae4e1e5cfe651c927a4dd364abaf09'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aiguy/Desktop/plansys2_emergency/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aiguy'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiguy'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aiguy/.sdkman/candidates/gradle/current/bin:/opt/ros/humble/bin:/home/aiguy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin'), ('SESSION_MANAGER', 'local/ubu22:@/tmp/.ICE-unix/1302,unix/ubu22:/tmp/.ICE-unix/1302'), ('SDKMAN_CANDIDATES_DIR', '/home/aiguy/.sdkman/candidates'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/807c9447_d130_4c62_b2ea_179f1be12fa3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T6RJ71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1654'), ('SDKMAN_DIR', '/home/aiguy/.sdkman'), ('SDKMAN_PLATFORM', 'linuxx64'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19ae4e1e5cfe651c927a4dd364abaf09'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency:/opt/ros/humble')]), 'shell': False}
+[0.191907] (-) TimerEvent: {}
+[0.304850] (-) TimerEvent: {}
+[0.424795] (-) TimerEvent: {}
+[0.529236] (-) TimerEvent: {}
+[0.630487] (-) TimerEvent: {}
+[0.688376] (plansys2_emergency) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/move_action_node.dir/src/move_action_node.cpp.o\x1b[0m\n'}
+[0.724376] (plansys2_emergency) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/load_action_node.dir/src/load_action_node.cpp.o\x1b[0m\n'}
+[0.731516] (-) TimerEvent: {}
+[0.765905] (plansys2_emergency) StdoutLine: {'line': b'[ 40%] Built target deliver_action_node\n'}
+[0.766144] (plansys2_emergency) StdoutLine: {'line': b'[ 60%] Built target fill_box_action_node\n'}
+[0.772239] (plansys2_emergency) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/unload_action_node.dir/src/unload_action_node.cpp.o\x1b[0m\n'}
+[0.837559] (-) TimerEvent: {}
+[0.947951] (-) TimerEvent: {}
+[1.061993] (-) TimerEvent: {}
+[1.183728] (-) TimerEvent: {}
+[1.291548] (-) TimerEvent: {}
+[1.399191] (-) TimerEvent: {}
+[1.507004] (-) TimerEvent: {}
+[1.613973] (-) TimerEvent: {}
+[1.728845] (-) TimerEvent: {}
+[1.834666] (-) TimerEvent: {}
+[1.942283] (-) TimerEvent: {}
+[2.056321] (-) TimerEvent: {}
+[2.170805] (-) TimerEvent: {}
+[2.278027] (-) TimerEvent: {}
+[2.380796] (-) TimerEvent: {}
+[2.495741] (-) TimerEvent: {}
+[2.615195] (-) TimerEvent: {}
+[2.733763] (-) TimerEvent: {}
+[2.846390] (-) TimerEvent: {}
+[2.962377] (-) TimerEvent: {}
+[3.076108] (-) TimerEvent: {}
+[3.180621] (-) TimerEvent: {}
+[3.281672] (-) TimerEvent: {}
+[3.383997] (-) TimerEvent: {}
+[3.494251] (-) TimerEvent: {}
+[3.598271] (-) TimerEvent: {}
+[3.704699] (-) TimerEvent: {}
+[3.809250] (-) TimerEvent: {}
+[3.916434] (-) TimerEvent: {}
+[4.018560] (-) TimerEvent: {}
+[4.121986] (-) TimerEvent: {}
+[4.231949] (-) TimerEvent: {}
+[4.358768] (-) TimerEvent: {}
+[4.466882] (-) TimerEvent: {}
+[4.567871] (-) TimerEvent: {}
+[4.688752] (-) TimerEvent: {}
+[4.793925] (-) TimerEvent: {}
+[4.899296] (-) TimerEvent: {}
+[5.005751] (-) TimerEvent: {}
+[5.121556] (-) TimerEvent: {}
+[5.240284] (-) TimerEvent: {}
+[5.355044] (-) TimerEvent: {}
+[5.477990] (-) TimerEvent: {}
+[5.588761] (-) TimerEvent: {}
+[5.709996] (-) TimerEvent: {}
+[5.822519] (-) TimerEvent: {}
+[5.931305] (-) TimerEvent: {}
+[6.089432] (-) TimerEvent: {}
+[6.214880] (-) TimerEvent: {}
+[6.318899] (-) TimerEvent: {}
+[6.436655] (-) TimerEvent: {}
+[6.540157] (-) TimerEvent: {}
+[6.647837] (-) TimerEvent: {}
+[6.751053] (-) TimerEvent: {}
+[6.855204] (-) TimerEvent: {}
+[6.956411] (-) TimerEvent: {}
+[7.059636] (-) TimerEvent: {}
+[7.162512] (-) TimerEvent: {}
+[7.265319] (-) TimerEvent: {}
+[7.367203] (-) TimerEvent: {}
+[7.469596] (-) TimerEvent: {}
+[7.574782] (-) TimerEvent: {}
+[7.678408] (-) TimerEvent: {}
+[7.783619] (-) TimerEvent: {}
+[7.886998] (-) TimerEvent: {}
+[7.993226] (-) TimerEvent: {}
+[8.100189] (-) TimerEvent: {}
+[8.203303] (-) TimerEvent: {}
+[8.305776] (-) TimerEvent: {}
+[8.408753] (-) TimerEvent: {}
+[8.513870] (-) TimerEvent: {}
+[8.617359] (-) TimerEvent: {}
+[8.719450] (-) TimerEvent: {}
+[8.820148] (-) TimerEvent: {}
+[8.923406] (-) TimerEvent: {}
+[9.024403] (-) TimerEvent: {}
+[9.126921] (-) TimerEvent: {}
+[9.235566] (-) TimerEvent: {}
+[9.338983] (-) TimerEvent: {}
+[9.443601] (-) TimerEvent: {}
+[9.545227] (-) TimerEvent: {}
+[9.650268] (-) TimerEvent: {}
+[9.752827] (-) TimerEvent: {}
+[9.854980] (-) TimerEvent: {}
+[9.956142] (-) TimerEvent: {}
+[10.058175] (-) TimerEvent: {}
+[10.159803] (-) TimerEvent: {}
+[10.261164] (-) TimerEvent: {}
+[10.363127] (-) TimerEvent: {}
+[10.465435] (-) TimerEvent: {}
+[10.568840] (-) TimerEvent: {}
+[10.671809] (-) TimerEvent: {}
+[10.773209] (-) TimerEvent: {}
+[10.875382] (-) TimerEvent: {}
+[10.976596] (-) TimerEvent: {}
+[11.079802] (-) TimerEvent: {}
+[11.183959] (-) TimerEvent: {}
+[11.287623] (-) TimerEvent: {}
+[11.389274] (-) TimerEvent: {}
+[11.491241] (-) TimerEvent: {}
+[11.592391] (-) TimerEvent: {}
+[11.693836] (-) TimerEvent: {}
+[11.795130] (-) TimerEvent: {}
+[11.896344] (-) TimerEvent: {}
+[12.003763] (-) TimerEvent: {}
+[12.105471] (-) TimerEvent: {}
+[12.207185] (-) TimerEvent: {}
+[12.310657] (-) TimerEvent: {}
+[12.412825] (-) TimerEvent: {}
+[12.514648] (-) TimerEvent: {}
+[12.619734] (-) TimerEvent: {}
+[12.721134] (-) TimerEvent: {}
+[12.823604] (-) TimerEvent: {}
+[12.926275] (-) TimerEvent: {}
+[13.028844] (-) TimerEvent: {}
+[13.134255] (-) TimerEvent: {}
+[13.251264] (-) TimerEvent: {}
+[13.351950] (-) TimerEvent: {}
+[13.453405] (-) TimerEvent: {}
+[13.554154] (-) TimerEvent: {}
+[13.656918] (-) TimerEvent: {}
+[13.759301] (-) TimerEvent: {}
+[13.864104] (-) TimerEvent: {}
+[13.966192] (-) TimerEvent: {}
+[14.067311] (-) TimerEvent: {}
+[14.168811] (-) TimerEvent: {}
+[14.270930] (-) TimerEvent: {}
+[14.372151] (-) TimerEvent: {}
+[14.483971] (-) TimerEvent: {}
+[14.585065] (-) TimerEvent: {}
+[14.689210] (-) TimerEvent: {}
+[14.790565] (-) TimerEvent: {}
+[14.891912] (-) TimerEvent: {}
+[14.992961] (-) TimerEvent: {}
+[15.094954] (-) TimerEvent: {}
+[15.197220] (-) TimerEvent: {}
+[15.299606] (-) TimerEvent: {}
+[15.401567] (-) TimerEvent: {}
+[15.503596] (-) TimerEvent: {}
+[15.604871] (-) TimerEvent: {}
+[15.716776] (-) TimerEvent: {}
+[15.818927] (-) TimerEvent: {}
+[15.920368] (-) TimerEvent: {}
+[16.021660] (-) TimerEvent: {}
+[16.122293] (-) TimerEvent: {}
+[16.223423] (-) TimerEvent: {}
+[16.324870] (-) TimerEvent: {}
+[16.426821] (-) TimerEvent: {}
+[16.528791] (-) TimerEvent: {}
+[16.630228] (-) TimerEvent: {}
+[16.732493] (-) TimerEvent: {}
+[16.834865] (-) TimerEvent: {}
+[16.939494] (-) TimerEvent: {}
+[17.041066] (-) TimerEvent: {}
+[17.142101] (-) TimerEvent: {}
+[17.245308] (-) TimerEvent: {}
+[17.346938] (-) TimerEvent: {}
+[17.448129] (-) TimerEvent: {}
+[17.549493] (-) TimerEvent: {}
+[17.651291] (-) TimerEvent: {}
+[17.751975] (-) TimerEvent: {}
+[17.853111] (-) TimerEvent: {}
+[17.954548] (-) TimerEvent: {}
+[18.059533] (-) TimerEvent: {}
+[18.161131] (-) TimerEvent: {}
+[18.265051] (-) TimerEvent: {}
+[18.368885] (-) TimerEvent: {}
+[18.472365] (-) TimerEvent: {}
+[18.574586] (-) TimerEvent: {}
+[18.675802] (-) TimerEvent: {}
+[18.777398] (-) TimerEvent: {}
+[18.881454] (-) TimerEvent: {}
+[18.982664] (-) TimerEvent: {}
+[19.085854] (-) TimerEvent: {}
+[19.200246] (-) TimerEvent: {}
+[19.302656] (-) TimerEvent: {}
+[19.406368] (-) TimerEvent: {}
+[19.464706] (plansys2_emergency) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable move_action_node\x1b[0m\n'}
+[19.507452] (-) TimerEvent: {}
+[19.614595] (-) TimerEvent: {}
+[19.649840] (plansys2_emergency) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable unload_action_node\x1b[0m\n'}
+[19.717134] (-) TimerEvent: {}
+[19.871000] (-) TimerEvent: {}
+[19.993762] (-) TimerEvent: {}
+[20.095251] (plansys2_emergency) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable load_action_node\x1b[0m\n'}
+[20.108054] (-) TimerEvent: {}
+[20.215661] (-) TimerEvent: {}
+[20.337148] (-) TimerEvent: {}
+[20.486090] (-) TimerEvent: {}
+[20.601822] (-) TimerEvent: {}
+[20.714804] (-) TimerEvent: {}
+[20.856659] (-) TimerEvent: {}
+[20.964439] (-) TimerEvent: {}
+[21.072031] (-) TimerEvent: {}
+[21.192247] (-) TimerEvent: {}
+[21.308241] (-) TimerEvent: {}
+[21.413709] (-) TimerEvent: {}
+[21.521032] (-) TimerEvent: {}
+[21.611212] (plansys2_emergency) StdoutLine: {'line': b'[100%] Built target move_action_node\n'}
+[21.621222] (-) TimerEvent: {}
+[21.640525] (plansys2_emergency) StdoutLine: {'line': b'[100%] Built target unload_action_node\n'}
+[21.643172] (plansys2_emergency) StdoutLine: {'line': b'[100%] Built target load_action_node\n'}
+[21.680522] (plansys2_emergency) CommandEnded: {'returncode': 0}
+[21.724444] (-) TimerEvent: {}
+[21.839384] (-) TimerEvent: {}
+[21.945888] (-) TimerEvent: {}
+[22.081467] (-) TimerEvent: {}
+[22.184127] (-) TimerEvent: {}
+[22.297596] (plansys2_emergency) JobProgress: {'identifier': 'plansys2_emergency', 'progress': 'install'}
+[22.301179] (-) TimerEvent: {}
+[22.366940] (plansys2_emergency) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency'], 'cwd': '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aiguy'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aiguy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/aiguy/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19ae4e1e5cfe651c927a4dd364abaf09'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aiguy/Desktop/plansys2_emergency/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aiguy'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiguy'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aiguy/.sdkman/candidates/gradle/current/bin:/opt/ros/humble/bin:/home/aiguy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin'), ('SESSION_MANAGER', 'local/ubu22:@/tmp/.ICE-unix/1302,unix/ubu22:/tmp/.ICE-unix/1302'), ('SDKMAN_CANDIDATES_DIR', '/home/aiguy/.sdkman/candidates'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/807c9447_d130_4c62_b2ea_179f1be12fa3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T6RJ71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1654'), ('SDKMAN_DIR', '/home/aiguy/.sdkman'), ('SDKMAN_PLATFORM', 'linuxx64'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiguy/Desktop/plansys2_emergency/build/plansys2_emergency'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=19ae4e1e5cfe651c927a4dd364abaf09'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency:/opt/ros/humble')]), 'shell': False}
+[22.389804] (plansys2_emergency) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.390114] (plansys2_emergency) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[22.390169] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/launch/plansys2_emergency_launch.py\n'}
+[22.390221] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/pddl/domain.pddl\n'}
+[22.391618] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/fill_box_action_node\n'}
+[22.402008] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/load_action_node\n'}
+[22.402123] (-) TimerEvent: {}
+[22.406540] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/unload_action_node\n'}
+[22.409834] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/move_action_node\n'}
+[22.409993] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/lib/plansys2_emergency/deliver_action_node\n'}
+[22.410114] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/ament_index/resource_index/package_run_dependencies/plansys2_emergency\n'}
+[22.410266] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/ament_index/resource_index/parent_prefix_path/plansys2_emergency\n'}
+[22.410372] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/environment/ament_prefix_path.sh\n'}
+[22.410453] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/environment/ament_prefix_path.dsv\n'}
+[22.410527] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/environment/path.sh\n'}
+[22.410605] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/environment/path.dsv\n'}
+[22.410716] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/local_setup.bash\n'}
+[22.410777] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/local_setup.sh\n'}
+[22.410835] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/local_setup.zsh\n'}
+[22.410898] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/local_setup.dsv\n'}
+[22.410966] (plansys2_emergency) StdoutLine: {'line': b'-- Symlinking: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.dsv\n'}
+[22.434996] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/ament_index/resource_index/packages/plansys2_emergency\n'}
+[22.436575] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.436818] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/cmake/plansys2_emergencyConfig.cmake\n'}
+[22.436917] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/cmake/plansys2_emergencyConfig-version.cmake\n'}
+[22.436993] (plansys2_emergency) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiguy/Desktop/plansys2_emergency/install/plansys2_emergency/share/plansys2_emergency/package.xml\n'}
+[22.440471] (plansys2_emergency) CommandEnded: {'returncode': 0}
+[22.503926] (-) TimerEvent: {}
+[22.628653] (-) TimerEvent: {}
+[22.744613] (-) TimerEvent: {}
+[22.863926] (-) TimerEvent: {}
+[22.979802] (-) TimerEvent: {}
+[23.084180] (-) TimerEvent: {}
+[23.128592] (plansys2_emergency) JobEnded: {'identifier': 'plansys2_emergency', 'rc': 0}
+[23.130400] (-) EventReactorShutdown: {}
